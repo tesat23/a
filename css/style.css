@@ -1,0 +1,289 @@
+/* BootstrapCDN  */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"); 
+/* Global CSS */
+::-moz-selection { background: transparent; }
+::selection { background: transparent; }
+body, button, input, select, textarea {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body{
+    background-color: #FFFFFF;
+    color: #222222;
+}
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-transform: none;
+}
+.btn.focus, .btn:focus{
+	box-shadow: none;
+}
+/* Header */
+header a{
+	cursor: pointer;
+}
+header img{
+	max-height: 18px;
+	-webkit-transition: all 0.35s;
+	-moz-transition: all 0.35s;
+	-o-transition: all 0.35s;
+	-ms-transition: all 0.35s;
+	transition: all 0.35s;
+}
+@-webkit-keyframes pulse {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+ }
+ 
+ @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+ } 
+.pulse {
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+}
+header img:hover{
+	animation: pulse 500ms;
+}
+/* Wrapper */
+.wrapper{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 40px;
+}
+/* Banner */
+.banner{
+	padding: 50px 0px 0px;
+}
+/* Packge */
+.package{
+	padding: 50px 0px 30px;
+}
+.package-header{margin-bottom: 40px;}
+.package-header h1{
+	font-size: 42px;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+	font-weight: 400;
+	text-transform: none;
+}
+.package-header h2{
+	font-size: 42px;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+	font-weight: 400;
+	text-transform: none;
+}
+/* Cards */
+.cards{
+	padding: 50px 0px;
+}
+/* Secureprivacy */
+.secureprivacy{padding-bottom:30px;}
+/* Wellness */
+.wellness-formula h1{
+	font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.wellness-formula a{
+	color: #007aff;
+}
+.wellness-formula a:hover{
+	color: #000000;
+}
+.wellness-formula p{
+	font-size: 17px;
+}
+.wellness-formula p span{
+	color: #222222;
+}
+/* Modal */
+#trusted-modal .modal-body p{ 
+	font-size: 12px;
+	font-weight: 400;
+	color: #2f485c;
+}
+#trusted-modal .modal-header{
+	border-bottom: 1px solid #ccc;
+}
+#trusted-modal .modal-header img{
+	max-width: 400px;
+}
+#trusted-modal .modal-content{
+	border: 1px solid #ccc;
+	box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
+.modal-backdrop{
+	background: transparent;
+}
+/* Benifit */
+.benefits{
+	padding: 50px 0px;
+}
+.benefits h1{margin-bottom:30px;}
+.benefits ul li{
+    font-size: 22px;
+}
+.benefits ul li::before{
+	content: "";
+    position: relative;
+    left: -0.5em;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.benefits ul li::before {
+    top: 5px;
+    font-size: 1em;
+    height: 1.4em;
+    width: 1.4em;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"%230693e3\" d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>');
+}
+.vista-offer-heaeder{
+	text-align: center;
+}
+.vista-offer-box p{font-size:20px; margin-bottom: 25px;}
+.vista-offer-heaeder h1{
+	font-weight: 700;
+}
+.vista-offer-box img{
+	height: 500px;
+}
+.vista-offer-box-1{margin-bottom:45px;}
+.vista-offer-box hr{margin-bottom:30px;}
+.vista-offer-box-2{margin-top: 25px;}
+.package-header-2 h1{font-size:41px;}
+.disclaimer{
+	margin:180px 0px 60px;
+}
+.disclaimer p{font-size: 20px;}
+/* Footer */
+footer{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 20px 40px;
+	color: #ffffff;
+	background-color: #55555e;
+}
+footer a{color:#ffffff;}
+footer a:hover{color:#ffffff; text-decoration: none;}
+footer p{color:#ffffff;}
+footer ul{margin-bottom:10px;}
+footer ul li{margin-bottom:5px;}
+
+.scroll-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  background: rgba(52, 58, 64, 0.5);
+  line-height:35px;
+}
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+.scroll-to-top:hover {
+  background: #343a40;
+}
+.scroll-to-top i {
+  font-weight: 800;
+}
+/* Contact us */
+.contact-us{padding:60px 0px 30px;}
+.contact-us h1{margin-bottom:30px;}
+.contact-us label{
+	font-size: 18px;
+	font-weight: 700;
+}
+.contact-us sup{
+	color: red;
+}
+/* Privacy */
+.privacy-policy{padding-top: 50px;}
+.privacy-policy-content h2{margin-bottom: 25px;margin-top: 25px; font-weight: 400;}
+.privacy-policy-content p{font-size: 18px;}
+
+
+/* Responsive */
+@media (min-width: 576px){
+	.modal-dialog {
+	    max-width: 500px;
+	    margin: 0rem auto;
+	}
+}
+/* Extra large devices (large desktops, 1200px and Down) */
+@media (max-width: 1199.98px) {
+	.disclaimer{margin: 50px 0px;}
+}
+
+/* Large devices (desktops, 992px and Down) */
+@media (max-width: 991.98px) {
+	.package-header h2{font-size: 36px;}
+	.wrapper{padding: 20px 0px;}
+}
+
+/* Medium devices (tablets, 768px and Down) */
+@media (max-width: 767.98px) {}
+
+/* Small devices (landscape phones, 576px and Down) */
+@media (max-width: 575.98px) {
+	h1,.package-header h1,.wellness-formula h1,.benefits h1,.vista-offer-heaeder h1{font-size: 36px;}
+	.package-header h2 {
+	    font-size: 30px;
+	}
+	.package-header {
+    	margin-bottom:0px;
+	}
+	.package{padding: 30px 0px;}
+	.benefits ul li{font-size: 18px;}
+	.list-unstyled{padding-left: 20px;}
+	footer{padding:20px 0px;}
+	.disclaimer p {
+	    font-size: 16px;
+	}
+	.disclaimer {
+	    margin:0px;
+	}
+	#trusted-modal .modal-header img {
+	    max-width:250px;
+	}
+	.modal-header .close{
+		padding: 10px;
+	}	
+}
+
+
+					/* Max Width */
+/* Small devices (landscape phones, 480px and down) */
+@media (max-width: 480px) {
+	#trusted-modal .modal-header img {
+	    max-width:230px;
+	}
+	.modal-header .close{
+		padding: 10px;
+	}	
+}
+
+/* Small devices (landscape phones, 414px and down) */
+@media (max-width: 414px) {}
+
+/* Small devices (landscape phones, 384px and down) */
+@media (max-width: 384px) {}
+
+/* Small devices (landscape phones, 360px and down) */
+@media (max-width: 360px) {}
+
+/* Small devices (landscape phones, 360px and down) */
+@media (max-width: 320px) {}
